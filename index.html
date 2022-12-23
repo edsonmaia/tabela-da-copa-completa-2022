@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" />
+    <title>Tabela da Copa 2022</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <main>
+        <h1>Finais</h1>
+
+        <div class="divFinais">
+
+            <div class='terceiroLugar'>
+                <h3 class='jogo'>Disputa do 3º lugar</h3>
+                <h4>
+                    <span class='dia'>SÁB</span>
+                    17/12/2022
+                    <span class='hora'>12h</span>
+                </h4>
+                <h4 class='centralizar jogo'>
+                    <img class='imagemP' src='./images/bandeiras/croacia.png' />
+                    <input type='number' min='0' max='99' class='gols' value="2" disabled>
+                    <span class="final t1">Perdedor S1</span> x <span class="final t2">Perdedor S2</span>
+                    <input type='number' min='0' max='99' class='gols' value="1" disabled>
+                    <img class='imagemP' src='./images/bandeiras/marrocos.png' />
+                </h4>
+                <h5>Khalifa Internacional</h5>
+                <h6>3º Lugar: Croácia</h6>
+                <h6>4º Lugar: Marrocos</h6>
+            </div>
+        
+            <div class='grandeFinal'>
+                <h3 class='jogo'>Grande Final</h3>
+                <h4>
+                    <span class='dia'>DOM</span>
+                    18/12/2022
+                    <span class='hora'>12h</span>
+                </h4>
+                <h4 class='centralizar jogo'>
+                    <img class='imagemP' src='./images/bandeiras/argentina.png' />
+                    <input type='number' min='0' max='99' class='gols' value="2" disabled>
+                    <span class="final f1">Vencedor S1</span> x <span class="final f2">Vencedor S2</span>
+                    <input type='number' min='0' max='99' class='gols' value="2" disabled>
+                    <img class='imagemP' src='./images/bandeiras/franca.png' />
+                </h4>
+                <h5>Lusail Iconic</h5>
+                <h6>Prorrogação: ARG 3 x 3 FRA</h6>
+                <h6>Pênaltis: Argentina 4 x 2 França</h6>
+                <h6>Campeão: Argentina</h6>
+                <h6>Vice: França</h6>
+            </div>
+
+        </div>
+
+        <h1>Semifinais</h1>
+
+        <div class="divSemifinais">
+            
+            <div class='semi s1'>
+                <h3 class='jogo'>Semifinal 1</h3>
+                <h4>
+                    <span class='dia'>TER</span>
+                    13/12/2022
+                    <span class='hora'>16h</span>
+                </h4>
+                <h4 class='centralizar jogo'>
+                    <img class='imagemP' src='./images/bandeiras/croacia.png' />
+                    <input type='number' min='0' max='99' class='gols'>
+                    <span class="quartas q1">Vencedor Q1</span> x <span class="quartas q2">Vencedor Q2</span>
+                    <input type='number' min='0' max='99' class='gols'>
+                    <img class='imagemP' src='./images/bandeiras/argentina.png' />
+                </h4>
+                <h5>Lusail Iconic</h5>
+            </div>
+
+            <div class='semi s2'>
+                <h3 class='jogo'>Semifinal 2</h3>
+                <h4>
+                    <span class='dia'>QUA</span>
+                    14/12/2022
+                    <span class='hora'>16h</span>
+                </h4>
+                <h4 class='centralizar jogo'>
+                    <img class='imagemP' src='./images/bandeiras/franca.png' />
+                    <input type='number' min='0' max='99' class='gols'>
+                    <span class="quartas q3">Vencedor Q3</span> x <span class="quartas q4">Vencedor Q4</span>
+                    <input type='number' min='0' max='99' class='gols'>
+                    <img class='imagemP' src='./images/bandeiras/marrocos.png' />
+                </h4>
+                <h5>Al Bayt</h5>
+            </div>
+
+        </div>
+
+        <h1>Quartas de Final</h1>
+
+        <div class="divQuartas">
+        </div>
+
+        <h1>Oitavas de Final</h1>
+        
+        <div class="divOitavas">
+        </div>
+        
+        <h1>Classificação</h1>
+        <h2>Grupo <span class="letra"></span> </h2>
+
+        <div class="formulario">
+            <form action="">
+                <label for="letrasDosGrupos">Selecione a letra do grupo: </label>
+                <select name="letrasDosGrupos" id="letrasDosGrupos" class="letrasDosGrupos">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">G</option>
+                    <option value="H">H</option>
+                </select>
+            </form>
+        </div>
+
+        <table class="tabelaClassificacao">
+            <tr>
+                <th>#</th>
+                <th>Seleção</th>
+                <th>PG</th>
+                <th>J</th>
+                <th>V</th>
+                <th>E</th>
+                <th>D</th>
+                <th>GP</th>
+                <th>GC</th>
+                <th>SG</th>
+            </tr>
+            <tbody class="corpoClassificacao">
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+            </tbody>
+        </table>
+        <p class="siglas">SIGLAS: PG pontos ganhos | J jogos | V vitórias | E empates | D derrotas | GP gols pró | GC gols contra | SG Saldo de gols</p>
+
+        <h1>Tabela da Copa 2022</h1>
+
+        <table class="tabelaJogos">
+            <tr>
+                <th>Dia</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Grupo</th>
+                <th>Jogo</th>
+                <th>Local</th>
+            </tr>
+        </table>
+
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
